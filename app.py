@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def get_root():
-    return"Hello, Yuemin!"
+    return"Hello, World!"
 
 
 @app.route('/<name>', methods=['GET'])
